@@ -51,4 +51,21 @@ p.cardText{
 .card{
     background-color: black;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-label{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 20px;
+}
+
+#contactoForm{
+    padding: 80px;
+}
+#logoM{
+    padding-bottom:10px ;
+    
 }
