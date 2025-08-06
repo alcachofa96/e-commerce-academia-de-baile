@@ -58,28 +58,35 @@
     </div>
         
     
-            
+         <form action="" class="formulario" id="contactoForm">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-3">
             <div class="">
                 <label for="exampleFormControlInput1" class="form-label">NOMBRE(S)</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
             </div>
         <div class="">
-            <label for="exampleFormControlInput1" class="form-label">APELLIDO(S)</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu apellido">
+            <label for="exampleFormControlInput2" class="form-label">APELLIDO(S)</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Ingresa tu apellido">
         </div>
         <div class="">
-                <label for="exampleFormControlInput1" class="form-label">E-MAIL</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu e-mail">
+                <label for="exampleFormControlInput3" class="form-label">E-MAIL</label>
+                <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="Ingresa tu e-mail">
+            </div>
+            <div class="">
+                <label for="exampleFormControlInput4" class="form-label">TELÉFONO</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput4" placeholder="Ingresa tu teléfono">
             </div>
         </div>
-        
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">CONTÁCTANOS</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tu mensaje"></textarea>
-            <button type="submit" class="btn btn-info">Enviar</button>
+            <label for="exampleFormControlTextarea5" class="form-label">CONTÁCTANOS</label>
+            <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" placeholder="Tu mensaje"></textarea>
+            <button type="submit" class="btn btn-info" id="boton">Enviar</button>
         </div>
+        </form>  
+        <div class="alert alert-danger" role="alert" id="alertResultado"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="./contactomain.js" type="module"></script>
+
 </body>
 </html>
