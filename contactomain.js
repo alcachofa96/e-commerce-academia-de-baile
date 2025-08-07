@@ -21,3 +21,4 @@ boton.addEventListener("click", function(event){
     alertResultado.innerHTML += "Mensaje no valido: " + validarMensaje(exampleFormControlTextarea5.value) + "</br>";
 });
 
+
